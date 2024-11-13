@@ -13,6 +13,8 @@ import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 import Arena from "../pages/Arena";
 import Credit from "../pages/Credit";
 import Bank from "../pages/Bank";
+import Promotion from "../pages/Promotion";
+import Game from "../pages/Game";
 
 import CheckQueue from "../pages/admin/CheckQueue";
 import ChangPassword from "../pages/ChangePassword";
@@ -43,6 +45,10 @@ const router = createBrowserRouter([
         element: <Rules />,
       },
       {
+        path: "game",
+        element: <Game />,
+      },
+      {
         path: "hayday",
         element: <HayDay />,
       },
@@ -65,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "bank",
         element: <Bank />,
+      },
+      {
+        path: "promotion",
+        element: <Promotion />,
       },
       {
         path: "checkqueue",

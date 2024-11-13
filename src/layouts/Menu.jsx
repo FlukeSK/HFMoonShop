@@ -30,41 +30,29 @@ export default function Menu() {
             </li>
 
             <li>
-              <a className=" hover:text-cyan-400 duration-300" href="/hayday">
-                HayDay
+              <a className=" hover:text-cyan-400 duration-300" href="/game">
+                Game
               </a>
             </li>
 
             <li>
               <a
                 className=" hover:text-cyan-400 duration-300"
-                href="/minecraft"
+                href="/promotion"
               >
-                Minecraft
-              </a>
-            </li>
-
-            <li>
-              <a className=" hover:text-cyan-400 duration-300" href="/fivem">
-                FiveM
-              </a>
-            </li>
-
-            <li>
-              <a className=" hover:text-cyan-400 duration-300" href="/arena">
-                ArenaPC
-              </a>
-            </li>
-
-            <li>
-              <a className=" hover:text-cyan-400 duration-300" href="/credit">
-                Credit
+                Promotion
               </a>
             </li>
 
             <li>
               <a className=" hover:text-cyan-400 duration-300" href="/bank">
                 Bank
+              </a>
+            </li>
+
+            <li>
+              <a className=" hover:text-cyan-400 duration-300" href="/credit">
+                Credit
               </a>
             </li>
           </ul>

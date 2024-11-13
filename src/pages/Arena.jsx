@@ -6,6 +6,9 @@ import LogoCat from "../layouts/LogoCat";
 import { Link } from "react-router-dom";
 import ArenaLogo from "../assets/Game/Arena_logo.png";
 
+/* // =============== < Import Out > =============== // */
+/* import { ShoppingCart } from "lucide-react"; */
+
 export default function Arena() {
   return (
     // ========== Start ========== //
@@ -57,6 +60,9 @@ export default function Arena() {
               >
                 🔔 VIEW 🔔
               </button>
+
+{/*               <ShoppingCart className="flex justify-center hover:text-purple-500" /> */}
+
               <dialog id="my_modal_1" className="modal rounded-lg p-2">
                 <div className="modal-box">
                   <p className="py-4 p-1 ml-2">

@@ -27,7 +27,7 @@ export default function ChangePassword({ onSuccess }) {
         return setError(validateError);
       }
 
-      await rupdatepassword(input);
+      await updatepassword(input);
       toast.success("updatepassword successfully");
       onSuccess();
     } catch (err) {
