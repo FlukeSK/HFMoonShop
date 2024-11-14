@@ -93,12 +93,6 @@ export default function Menu() {
                     // ===== User =====
                     <>
                       <li>
-                        <div className=" hover:text-red-500 text-white">
-                          <ShoppingCart />
-                        </div>
-                      </li>
-
-                      <li>
                         <a
                           className=" hover:text-red-500 duration-300"
                           onClick={logout}
@@ -107,13 +101,19 @@ export default function Menu() {
                         </a>
                       </li>
 
-                      <li>
+                      {/*                       <li>
                         <a
                           className=" hover:text-red-500 duration-300"
                           href="/changepassword"
                         >
                           Change Password
                         </a>
+                      </li> */}
+
+                      <li>
+                        <div className=" hover:text-red-500 text-white">
+                          <ShoppingCart />
+                        </div>
                       </li>
                     </>
                   )
