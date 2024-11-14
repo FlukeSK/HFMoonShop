@@ -74,7 +74,7 @@ export default function Menu() {
                       <li>
                         <a
                           className=" hover:text-red-500 duration-300"
-                          href="/checkqueue"
+                          href="/checkorder"
                         >
                           Check Order
                         </a>

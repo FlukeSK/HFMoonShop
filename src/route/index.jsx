@@ -16,7 +16,7 @@ import Bank from "../pages/Bank";
 import Promotion from "../pages/Promotion";
 import Game from "../pages/Game";
 
-import CheckQueue from "../pages/admin/CheckQueue";
+import CheckOrder from "../pages/admin/CheckOrder";
 import ChangPassword from "../pages/ChangePassword";
 
 const router = createBrowserRouter([
@@ -77,8 +77,8 @@ const router = createBrowserRouter([
         element: <Promotion />,
       },
       {
-        path: "checkqueue",
-        element: <CheckQueue />,
+        path: "checkorder",
+        element: <CheckOrder />,
       },
       {
         path: "changepassword",
