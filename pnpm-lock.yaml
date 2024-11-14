@@ -114,9 +114,6 @@ importers:
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
-      daisyui:
-        specifier: ^4.12.14
-        version: 4.12.14(postcss@8.4.49)
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
