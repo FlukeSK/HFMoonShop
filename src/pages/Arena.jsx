@@ -718,12 +718,12 @@ export default function Arena() {
           <figure>
             <img
               className=" rounded-t-lg"
-              src="https://t3.ftcdn.net/jpg/04/92/51/66/360_F_492516631_Tzxtms5jydBakvSf3wA9g3gdNtiV1bqS.jpg"
+              src="https://media.discordapp.net/attachments/1273761062088609913/1306585957943738398/image.png?ex=6737347f&is=6735e2ff&hm=52e9c287cd70d7876f2b2073873687f449da2c71ece1f8e31e8b8972b272cc7f&=&format=webp&quality=lossless&width=1177&height=662"
               alt="ID11"
             />
           </figure>
           <div className="card-body p-1">
-            <h2 className="card-title ml-2">ID 011 — เวล xx Rank xx </h2>
+            <h2 className="card-title ml-2">ID 011 — เวล 21 Rank Vanguard 2 </h2>
             <div className="card-actions justify-end">
               <Link to="/bank">
                 <button
@@ -745,18 +745,20 @@ export default function Arena() {
               <dialog id="my_modal_11" className="modal rounded-lg p-2">
                 <div className="modal-box">
                   <p className="py-4 p-1 ml-2">
-                    • เงินสด xx M | คลัง xx M
+                    • เงินสด 6 M | คลัง 7 M | Market 20k+
                     <br />
-                    • เซฟ 2 ช่อง เหลือ xx วัน
+                    • เซฟ 2 ช่อง เหลือ 4+ วัน
                     <br />
                     • ปืนและของพร้อมเล่น
+                    <br />
+                    • ปลด 150 ช่องแล้ว
                     <br />
                     • เปิดแมพ Armory แล้ว
                     <br />
                     • เปิด Rank แล้ว
                     <br />
-                    • Bundle Coupon xx กล่อง | Card Elite xx วัน
-                    <br />• กุญแจ xx ดอก
+                    • Bundle Coupon 12 กล่อง
+                    <br />• กุญแจ Main Bedroom 11 ดอก | กุญแจ StaWarehouse 23 ดอก
                   </p>
                   <div className="modal-action">
                     <form method="dialog">
